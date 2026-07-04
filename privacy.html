@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>개인정보 보호 정책 — yeonubot</title>
+<title>Privacy Policy — yeonubot</title>
 <style>
   :root{--bg:#0F1923;--panel:#152029;--line:#24333F;--red:#FF4655;--cream:#ECE8E1;--muted:#8A97A0}
   *{margin:0;padding:0;box-sizing:border-box}
-  body{background:var(--bg);color:var(--cream);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic","Apple SD Gothic Neo",Roboto,sans-serif;line-height:1.75}
+  body{background:var(--bg);color:var(--cream);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic","Apple SD Gothic Neo",Roboto,sans-serif;line-height:1.75;overflow-x:hidden}
   .wrap{max-width:780px;margin:0 auto;padding:0 24px}
   header{border-bottom:1px solid var(--line)}
   .nav{display:flex;align-items:center;justify-content:space-between;height:60px}
@@ -16,17 +16,22 @@
   .nav a{color:var(--muted);text-decoration:none;font-size:13px;text-transform:uppercase;letter-spacing:.08em}
   .nav a:hover{color:var(--cream)}
   main{padding:56px 0 80px}
-  .en-note{font-size:12.5px;color:var(--muted);border:1px solid var(--line);background:var(--panel);padding:10px 14px;margin-bottom:36px}
+  .lang-note{font-size:12.5px;color:var(--muted);border:1px solid var(--line);background:var(--panel);padding:10px 14px;margin-bottom:36px}
   h1{font-size:32px;font-weight:900;text-transform:uppercase;letter-spacing:.02em;margin-bottom:6px}
   h1::before{content:"// ";color:var(--red)}
   .eff{color:var(--muted);font-size:14px;margin-bottom:40px}
-  h2{font-size:18px;font-weight:800;margin:40px 0 12px;color:var(--cream)}
+  h2{font-size:18px;font-weight:800;margin:44px 0 12px;color:var(--cream)}
   h3{font-size:15px;font-weight:800;margin:20px 0 8px;color:var(--cream)}
   p{margin-bottom:14px;font-size:15px}
   ul{margin:0 0 14px 22px}
   li{margin-bottom:8px;font-size:15px}
   strong{color:#fff}
   a{color:var(--red)}
+  .kr{border-left:3px solid var(--line);padding:10px 16px;margin:14px 0 6px;background:rgba(255,255,255,.02)}
+  .kr p,.kr li{font-size:13.5px;color:var(--muted);margin-bottom:8px}
+  .kr ul{margin-bottom:6px}
+  .kr h3{font-size:13.5px;color:var(--cream);margin:12px 0 6px}
+  .kr strong{color:var(--cream)}
 </style>
 </head>
 <body>
@@ -35,15 +40,42 @@
   <nav><a href="terms.html">Terms of Service</a></nav>
 </div></header>
 <main><div class="wrap">
-<div class="en-note">This document is provided in Korean, the operating language of the
-communities where yeonubot runs. — Privacy Policy for the yeonubot Discord application.</div>
+<div class="lang-note">This document is provided in English with a Korean translation below each
+section. In case of any discrepancy, the Korean text prevails, as Korean is the operating
+language of the communities where yeonubot runs.<br>
+본 문서는 영어 본문과 각 조항 하단의 한국어 번역으로 제공됩니다. 두 텍스트가 다를 경우 커뮤니티
+운영 언어인 한국어 본문이 우선합니다.</div>
 
-<h1>개인정보 보호 정책</h1>
-<div class="eff">시행일: 2026년 7월 5일</div>
+<h1>Privacy Policy</h1>
+<div class="eff">Effective date: July 5, 2026 · 시행일: 2026년 7월 5일</div>
 
-<p>이 디스코드 봇(이하 "봇")은 봇이 추가된 각 디스코드 서버(이하 "서버")의 운영에 필요한 최소한의 정보를 수집·이용합니다. 본 정책은 봇이 어떤 정보를 왜 수집하고, 어떻게 보관·공유·파기하는지를 설명하며, 봇이 운영되는 모든 서버에 적용됩니다.</p>
+<p>This Discord bot ("the Bot") collects and uses only the minimum information necessary to
+operate each Discord server it is added to ("the Server"). This policy explains what the Bot
+collects and why, and how that information is stored, shared, and deleted. It applies to every
+server where the Bot operates.</p>
+<div class="kr"><p>이 디스코드 봇(이하 "봇")은 봇이 추가된 각 디스코드 서버(이하 "서버")의 운영에 필요한 최소한의 정보를 수집·이용합니다. 본 정책은 봇이 어떤 정보를 왜 수집하고, 어떻게 보관·공유·파기하는지를 설명하며, 봇이 운영되는 모든 서버에 적용됩니다.</p></div>
 
-<h2>1. 수집하는 정보</h2>
+<h2>1. Information We Collect</h2>
+<h3>A. Basic Discord information (collected automatically)</h3>
+<ul><li>Discord user ID, username, server nickname, roles, and join/leave history (including join count)</li></ul>
+<h3>B. Onboarding information (entered by you)</h3>
+<ul><li>Gender, birth year (to determine age group), and how you found the server</li></ul>
+<h3>C. Server activity (collected automatically)</h3>
+<ul>
+  <li>Chat/voice activity amounts (numeric values such as message counts and voice time, used for levels), in-server currency balance and transactions, warning history, staff attendance records</li>
+  <li>Operational logs: message edit/delete records, voice channel joins/leaves, nickname/role change history</li>
+  <li>Tickets: conversation content and attached images in inquiry threads (preserved as operational records when a ticket is closed)</li>
+</ul>
+<h3>D. VALORANT tier verification (entered by you)</h3>
+<ul><li>Riot ID (game name#tagline, for the Korea and Asia servers respectively) and the tier information retrieved with it (current act / previous act / peak)</li></ul>
+<h3>E. Scrim voice recording (planned feature)</h3>
+<ul>
+  <li>Recordings of conversations in <strong>designated scrim voice channels</strong> where recording was announced in advance, while a scrim is in progress</li>
+  <li>Everyday voice channels are not recorded. Recording is announced beforehand or indicated in the channel, and the feature takes effect only after a server announcement upon introduction.</li>
+</ul>
+<p>The Bot does not collect passwords, emails, phone numbers, payment information, or any other
+sensitive account credentials.</p>
+<div class="kr">
 <p>봇은 서버 이용 과정에서 다음 정보를 수집·저장합니다.</p>
 <h3>가. 디스코드 기본 정보 (자동 수집)</h3>
 <ul><li>디스코드 사용자 ID, 사용자명, 서버 별명, 보유 역할, 서버 입장·퇴장 이력(입장 횟수 포함)</li></ul>
@@ -51,7 +83,7 @@ communities where yeonubot runs. — Privacy Policy for the yeonubot Discord app
 <ul><li>성별, 출생 연도(연령대 확인용), 가입 경로</li></ul>
 <h3>다. 서버 활동 정보 (자동 수집)</h3>
 <ul>
-  <li>채팅·음성 활동량(레벨/경험치 산정용 — 메시지 횟수·음성 접속 시간 등 수치), 서버 재화 잔액·거래 내역, 경고 이력, 운영진 출퇴근 기록</li>
+  <li>채팅·음성 활동량(레벨/경험치 산정용 수치), 서버 재화 잔액·거래 내역, 경고 이력, 운영진 출퇴근 기록</li>
   <li>서버 운영 로그: 메시지 수정·삭제 기록, 음성 채널 입퇴장, 닉네임·역할 변경 이력 등</li>
   <li>문의(티켓) 이용 시: 문의 스레드 내 대화 내용과 첨부 이미지(문의 종료 시 운영 기록으로 보존)</li>
 </ul>
@@ -62,49 +94,83 @@ communities where yeonubot runs. — Privacy Policy for the yeonubot Discord app
   <li>내전 진행 중, 녹음이 사전 안내된 <strong>내전용 음성 채널 내 대화의 녹음본</strong></li>
   <li>일상 통화방은 녹음 대상이 아니며, 녹음 진행 사실은 사전 공지 또는 채널 내 표시로 안내됩니다. 기능 도입 시 서버 공지 후 시행됩니다.</li>
 </ul>
-<p>봇은 비밀번호, 이메일, 전화번호, 결제 정보 등 민감한 계정 정보를 수집하지 않습니다.</p>
+<p>봇은 비밀번호, 이메일, 전화번호, 결제 정보 등 민감한 계정 정보를 수집하지 않습니다.</p></div>
 
-<h2>2. 수집 목적</h2>
+<h2>2. Purposes of Collection</h2>
 <ul>
+  <li>Membership screening and assignment of age/gender-based roles</li>
+  <li>Providing community features such as activity levels, currency, and tier roles</li>
+  <li>Moderation and preservation of operational records to maintain server order</li>
+  <li>Handling inquiries and reviewing disputes</li>
+  <li>Scrim operation: match records and dispute review (voice recordings)</li>
+</ul>
+<div class="kr"><ul>
   <li>서버 가입 심사 및 연령·성별 기반 역할 부여</li>
   <li>활동 레벨·재화·티어 등 커뮤니티 기능 제공</li>
   <li>서버 질서 유지를 위한 모더레이션 및 운영 기록 보존</li>
   <li>문의 응대 및 분쟁 확인</li>
   <li>내전 운영: 경기 진행 기록, 판정·분쟁 확인(음성 녹음본)</li>
-</ul>
+</ul></div>
 
-<h2>3. 제3자 제공 및 외부 서비스</h2>
+<h2>3. Third Parties and External Services</h2>
 <ul>
+  <li><strong>Discord</strong>: all Bot features run on the Discord platform; Discord's own processing is governed by the <a href="https://discord.com/privacy">Discord Privacy Policy</a>.</li>
+  <li><strong>HenrikDev API (unofficial VALORANT API)</strong>: when you verify a tier, the Riot ID you registered is sent to this API for lookup. It is not an official Riot Games service; the Bot stores only the lookup results (tiers).</li>
+  <li><strong>Google Sheets</strong>: for staff member-management purposes, a member roster (nickname, roles, gender, age group, join path, levels, warnings, tiers, etc.) may be synchronized to a Google Sheet accessible only to server staff.</li>
+  <li><strong>Hosting infrastructure</strong>: the Bot and collected data (including voice recordings) are stored on the server-hosting (cloud) service used by the operator to run the Bot. This is storage only — data is not provided to the hosting company for its own use. Recordings are not posted or shared to any other external service.</li>
+</ul>
+<p>Personal information is never sold or provided to third parties for advertising.</p>
+<div class="kr"><ul>
   <li><strong>Discord</strong>: 봇의 모든 기능은 디스코드 플랫폼 위에서 동작하며, 디스코드 자체의 정보 처리는 <a href="https://discord.com/privacy">디스코드 개인정보 처리방침</a>을 따릅니다.</li>
   <li><strong>HenrikDev API(비공식 발로란트 API)</strong>: 티어 인증 시 귀하가 등록한 Riot ID가 조회 목적으로 해당 API에 전송됩니다. 라이엇 게임즈의 공식 서비스가 아니며, 봇은 조회 결과(티어)만 저장합니다.</li>
   <li><strong>Google Sheets</strong>: 서버 운영진의 멤버 관리 목적으로 멤버 명부(닉네임·역할·성별·연령대·가입 경로·레벨·경고·티어 등)가 운영진만 접근 가능한 구글 시트에 동기화될 수 있습니다.</li>
   <li><strong>호스팅 인프라</strong>: 봇과 수집 데이터(음성 녹음본 포함)는 봇 구동을 위해 운영자가 이용하는 서버 호스팅(클라우드) 서비스의 인프라에 저장됩니다. 이는 저장 공간의 이용일 뿐이며, 호스팅 사업자에게 데이터를 이용 목적으로 제공하는 것이 아닙니다. 녹음본을 그 외의 외부 서비스에 게시·공유하지 않습니다.</li>
 </ul>
-<p>위 목적 외에 개인정보를 외부에 판매하거나 광고 목적으로 제공하지 않습니다.</p>
+<p>위 목적 외에 개인정보를 외부에 판매하거나 광고 목적으로 제공하지 않습니다.</p></div>
 
-<h2>4. 보관 및 파기</h2>
+<h2>4. Retention and Deletion</h2>
 <ul>
+  <li>Collected information is stored per server (per guild) in a database managed by the operator (including hosting/cloud infrastructure); each Server's data is accessible only to <strong>authorized staff of that Server</strong>.</li>
+  <li>Some records (join history, warnings, and similar operational records) may be retained after you leave the Server, to track repeated joins/leaves and sanction history.</li>
+  <li><strong>Scrim voice recordings</strong> are deleted without delay once the purpose (scrim adjudication / dispute review) is fulfilled; the default retention period is <strong>7 days from recording</strong>. If a dispute is ongoing, retention may be extended until it is resolved.</li>
+  <li>You may request access, correction, or deletion of your data through the contact below; requests are handled without delay, except for records required by law or for maintaining server order. In particular, <strong>Riot ID/tier records and recordings containing your voice are deleted upon request</strong> (recordings needed as evidence in an ongoing dispute are processed after resolution).</li>
+</ul>
+<div class="kr"><ul>
   <li>수집된 정보는 운영자가 관리하는 봇 서버(호스팅/클라우드 인프라 포함)의 데이터베이스에 서버(길드) 단위로 구분 저장되며, 각 서버의 데이터는 <strong>해당 서버의 운영진</strong> 중 권한을 가진 인원만 접근할 수 있습니다.</li>
   <li>서버 퇴장 시에도 일부 정보(입장 이력·경고 등 운영 기록)는 반복 입퇴장 확인 및 제재 이력 관리를 위해 보존될 수 있습니다.</li>
   <li><strong>내전 음성 녹음본</strong>은 내전 판정·분쟁 확인 목적이 달성되면 지체 없이 파기하며, 기본 보관 기간은 <strong>녹음일로부터 7일</strong>입니다. 분쟁이 진행 중인 경우 해당 분쟁 해결 시까지 보관 기간이 연장될 수 있습니다.</li>
   <li>본인 정보의 열람·정정·삭제를 원하는 경우 아래 문의 경로로 요청할 수 있으며, 법령 또는 서버 질서 유지에 필요한 기록을 제외하고 지체 없이 처리합니다. 특히 <strong>Riot ID·티어 기록 및 본인 발화가 포함된 녹음본은 요청 시 삭제</strong>됩니다(단, 진행 중인 분쟁의 증빙으로 필요한 녹음본은 분쟁 해결 후 처리).</li>
-</ul>
+</ul></div>
 
-<h2>5. 이용자의 권리</h2>
+<h2>5. Your Rights</h2>
 <ul>
+  <li>Onboarding information (gender, birth year, join path) and Riot ID registration are optional; omitting them only restricts some features (age roles, tier verification, etc.).</li>
+  <li><strong>If you do not wish to be recorded, you may choose not to join scrim voice channels where recording has been announced</strong>; this does not restrict any other use of the Server.</li>
+  <li>You have the right to request access to, correction of, or deletion of stored information about you (including recordings).</li>
+</ul>
+<div class="kr"><ul>
   <li>온보딩 정보(성별·출생 연도·가입 경로)와 Riot ID 등록은 선택 사항이며, 미입력 시 일부 기능(연령 역할, 티어 인증 등)만 제한됩니다.</li>
   <li><strong>음성 녹음을 원하지 않는 경우 녹음이 안내된 내전 음성 채널에 참여하지 않을 수 있으며</strong>, 이 경우에도 내전 참가 외의 서버 이용에는 제한이 없습니다.</li>
   <li>본인 관련 저장 정보(녹음본 포함)에 대해 열람·정정·삭제를 요청할 권리가 있습니다.</li>
-</ul>
+</ul></div>
 
-<h2>6. 아동의 개인정보</h2>
-<p>봇은 디스코드 이용 가능 연령(만 13세 이상 또는 거주 국가 기준 연령) 미만 아동의 정보를 의도적으로 수집하지 않습니다. 해당 사실이 확인되면 관련 정보를 삭제합니다.</p>
+<h2>6. Children's Privacy</h2>
+<p>The Bot does not intentionally collect information from children below Discord's minimum age
+(13, or the applicable age in your country). If such collection is identified, the information
+is deleted.</p>
+<div class="kr"><p>봇은 디스코드 이용 가능 연령(만 13세 이상 또는 거주 국가 기준 연령) 미만 아동의 정보를 의도적으로 수집하지 않습니다. 해당 사실이 확인되면 관련 정보를 삭제합니다.</p></div>
 
-<h2>7. 정책의 변경</h2>
-<p>본 정책이 변경되는 경우 서버 공지 채널을 통해 고지하며, 중요한 변경(수집 항목·제공 대상 변경 등)은 시행 전에 안내합니다. 내전 음성 녹음 기능의 실제 도입 시점에도 별도 공지합니다.</p>
+<h2>7. Changes to This Policy</h2>
+<p>Changes to this policy are announced through server notice channels; significant changes
+(such as changes to what is collected or with whom it is shared) are announced before taking
+effect. A separate announcement will be made when the scrim voice recording feature actually
+launches.</p>
+<div class="kr"><p>본 정책이 변경되는 경우 서버 공지 채널을 통해 고지하며, 중요한 변경(수집 항목·제공 대상 변경 등)은 시행 전에 안내합니다. 내전 음성 녹음 기능의 실제 도입 시점에도 별도 공지합니다.</p></div>
 
-<h2>8. 문의</h2>
-<p>개인정보 관련 문의·요청은 서버 내 <strong>문의(티켓) 채널</strong> 또는 서버 운영진 DM으로 접수해 주세요.</p>
+<h2>8. Contact</h2>
+<p>Privacy inquiries and requests may be submitted through the in-server <strong>ticket
+(inquiry) channel</strong> or by DM to server staff.</p>
+<div class="kr"><p>개인정보 관련 문의·요청은 서버 내 <strong>문의(티켓) 채널</strong> 또는 서버 운영진 DM으로 접수해 주세요.</p></div>
 </div></main>
 </body>
 </html>
