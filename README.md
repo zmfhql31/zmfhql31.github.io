@@ -28,3 +28,4 @@ yeonubot 제품 소개 페이지 — Riot 프로덕션 앱 신청의 Product URL
 파일을 수정해 커밋하면 1~2분 내 반영. **이 저장소는 public 유지**
 (무료 플랜은 private 저장소로 Pages 서빙 불가 + Product URL은 심사 후에도 살아 있어야 함).
 봇 소스코드는 이 저장소에 올리지 않는다.
+
