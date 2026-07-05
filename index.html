@@ -61,6 +61,12 @@
   .step h3{font-size:14.5px;font-weight:800;margin-bottom:6px}
   .step p{font-size:13px;color:var(--muted)}
   .note{margin-top:22px;font-size:13px;color:var(--muted);border-left:3px solid var(--red);padding:10px 14px;background:var(--panel)}
+  /* screens */
+  .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;align-items:start}
+  .shot{background:var(--panel);border:1px solid var(--line);padding:12px;margin:0}
+  .shot img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+  .shot figcaption{margin-top:10px;font-size:12.5px;color:var(--muted);letter-spacing:.02em}
+  .shot.wide{grid-column:1/-1}
   /* data */
   .data-list{list-style:none;display:grid;gap:10px;max-width:720px}
   .data-list li{background:var(--panel);border:1px solid var(--line);padding:14px 16px;font-size:14px;color:var(--cream)}
@@ -89,6 +95,7 @@
     <nav class="nav-links">
       <a href="#features">Features</a>
       <a href="#flow">Verification</a>
+      <a href="#screens">Screens</a>
       <a href="#data">Data</a>
       <a href="terms.html">Terms</a>
       <a href="privacy.html">Privacy</a>
@@ -158,6 +165,27 @@
     </div>
     <div class="note">Ownership verification prevents impersonation — members can no longer
     claim accounts they do not own to obtain high-tier roles.</div>
+  </div>
+</section>
+
+<section id="screens">
+  <div class="wrap">
+    <h2>See it in action</h2>
+    <div class="sec-kr">실제 동작 화면 — 운영 중인 커뮤니티 서버에서 캡처.</div>
+    <div class="shots">
+      <figure class="shot"><img src="images/panel.png" alt="Tier verification panel posted by yeonubot in Discord" loading="lazy">
+        <figcaption>01 · Verification panel posted by yeonubot — separate KR / AP server buttons</figcaption></figure>
+      <figure class="shot"><img src="images/modal.png" alt="Riot ID registration modal" loading="lazy">
+        <figcaption>02 · Riot ID registration modal (KR server)</figcaption></figure>
+      <figure class="shot"><img src="images/result.png" alt="Verification result message with tiers and assigned role" loading="lazy">
+        <figcaption>03 · Result — current act (unplaced) · previous act · peak tier, rank role assigned by peak</figcaption></figure>
+      <figure class="shot"><img src="images/profile.png" alt="Rank role visible on the member profile" loading="lazy">
+        <figcaption>04 · Rank role visible on the member's server profile</figcaption></figure>
+      <figure class="shot wide"><img src="images/dashboard.png" alt="Staff web dashboard - Tier Verification module settings" loading="lazy">
+        <figcaption>05 · Staff web dashboard — Tier Verification module settings with live panel preview</figcaption></figure>
+    </div>
+    <div class="note">Screens 01–04 are captured from the live Korean community server (Korean UI, as
+    served to members). The staff dashboard (05) is shown in English for review convenience.</div>
   </div>
 </section>
 
